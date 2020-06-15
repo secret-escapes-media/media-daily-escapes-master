@@ -1,0 +1,223 @@
+// site header and navigation styles
+$core-nav-padding:    $s4;
+$core-nav-padding-sm: $s2;
+
+
+.site-header {
+  background-color: $black;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: $z-nav-upper;
+}
+
+
+// ---------- NAV FOR CORE SE SITE ----------
+
+// the breakpoint for the core nav list to appear as the mobile nav
+$nav-list-bp: 200870px;
+// the breakpoint for the logo to appear at the bottom of the mobile nav
+$logo-bp: 200600px;
+
+.nav {
+  padding-left: $core-nav-padding-sm;
+  padding-right: $core-nav-padding-sm;
+  padding-bottom: $core-nav-padding-sm/1.5;
+  font-family: $sans;
+  color: $grey-lighter;
+  text-align: center;
+  max-width: $xxxl;
+  margin: auto;
+
+  @include bp($md){
+    padding-left: $core-nav-padding;
+    padding-right: $core-nav-padding;
+  }
+
+  &__top {
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    max-width: $xxxl;
+    margin-left: auto;
+    margin-right: auto;
+    &__mobile {
+      display: flex;
+      align-items: center;
+      width: 25%;
+      @include bp($logo-bp) { width: 33.33%; }
+      @include bp($nav-list-bp) { display: none; }
+    }
+    &__logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      padding-top: $s0;
+      @include bp($logo-bp) {
+        width: 33.33%;
+        flex-grow: 3; // needed for firefox
+      }
+      @include bp($nav-list-bp) {
+        width: 66.66%;
+        justify-content: flex-start;
+      }
+    }
+    &__nav {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 25%;
+      visibility: hidden;
+      @include bp($logo-bp) {
+        width: 33.33%;
+        visibility: visible;
+      }
+      &-link {
+        font-size: $s-1;
+        font-weight: 700;
+        display: inline-block;
+        &+&{ padding-left: $s0; }
+      }
+    }
+  }
+
+  &__bottom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    max-width: $xxxl;
+    margin-left: auto;
+    margin-right: auto;
+    &__left {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: 50%;
+
+      visibility: hidden;
+      @include bp($logo-bp) {
+        width: 33.33%;
+        visibility: visible;
+      }
+    }
+    &__right {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      width: 50%;
+
+      visibility: hidden;
+      @include bp($logo-bp) {
+        width: 33.33%;
+        visibility: visible;
+      }
+    }
+  }
+
+
+  &__list {
+    display: none;
+    @include bp($nav-list-bp) {
+      display: block;
+    }
+    &-link {
+      display: inline-block;
+      padding: $s0 0;
+      &+&{ padding-left: $s0; }
+      font-weight: 500;
+      font-size: $s0;
+      &:last-child { padding-right: 0; }
+      @include transition;
+      &:hover,
+      &.is-current {
+        color: $orange;
+      }
+    }
+  }
+}
+
+
+
+
+
+// ---------- MOBILE NAV OFF CANVAS ----------
+
+$mobile-nav-width: 75%;
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: $z-overlay;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: $mobile-nav-width;
+  font-family: $sans;
+  color: $grey-lighter;
+  overflow-y: auto;
+  background-color: rgba($grey-darker,.9);
+  @include transition;
+
+  // spacing for logos in mobile core nav
+  .logo { margin: $s-2; }
+
+  &.is-closed {
+    left: -$mobile-nav-width;
+    visibility: hidden;
+    opacity: 0;
+  }
+  &.is-open {
+    left: 0;
+    visibility: visible;
+    opacity: 1;
+  }
+  &__wrap {
+    padding-left: $core-nav-padding-sm;
+    padding-right: $core-nav-padding-sm;
+    @include bp(md){
+      padding-left: $core-nav-padding;
+      padding-right: $core-nav-padding;
+    }
+  }
+  &__top {
+    display: flex;
+    align-items: center;
+
+  }
+  &__middle {
+    flex-grow: 1;
+  }
+  &__bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: $s0;
+    margin-top: $s2;
+    background: rgba($grey-darker,.85);
+    @include bp($logo-bp){
+      display: none;
+    }
+  }
+  &__list-link {
+    & + & { border-top: 1px solid rgba($black,.33); }
+    @include transition;
+    display: block;
+    padding-top: $s0;
+    padding-bottom: $s0;
+    font-size: $s0;
+    font-weight: 700;
+    text-transform: uppercase;
+    &.is-current { color: $orange; }
+  }
+  @include bp($nav-list-bp){ display: none; }
+}

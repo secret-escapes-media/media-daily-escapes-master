@@ -1,0 +1,138 @@
+
+
+
+###################################################################################################
+# Fashion
+###################################################################################################
+
+- id: bestsecret
+  category: mode
+  incentive: Get 50% off
+  date: "14.06.2020"
+
+  product:
+    name: Lorem ipsum
+    tagline: Pellentesque ornare sem lacinia quam venenatis vestibulum.
+    link: "#"
+    cta-text: Create now
+
+    features:
+      - id: feature1
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature2
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature3
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+
+
+- id: breuninger
+  category: mode
+  incentive: Get 50% off
+  date: "13.06.2020"
+  product:
+    name: Lorem ipsum
+    tagline: Pellentesque ornare sem lacinia quam venenatis vestibulum.
+    link: "#"
+    cta-text: Create now
+    features:
+      - id: feature1
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature2
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature3
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+
+
+- id: marcopolo
+  category: mode
+  incentive: Get 50% off
+  date: "13.06.2020"
+  product:
+    name: Lorem ipsum
+    tagline: Pellentesque ornare sem lacinia quam venenatis vestibulum.
+    link: "#"
+    cta-text: Create now
+    features:
+      - id: feature1
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature2
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature3
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+
+
+
+###################################################################################################
+# ENTERTAINMENT
+###################################################################################################
+
+- id: audible
+  category: entertainment
+  incentive: Get 50% off
+  date: "13.06.2020"
+  product:
+    name: Lorem ipsum
+    tagline: Pellentesque ornare sem lacinia quam venenatis vestibulum.
+    link: "#"
+    color: "#f89a1d"
+    features:
+      - id: feature1
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature2
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature3
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+
+
+- id: duolingo
+  category: entertainment
+  incentive: Get 50% off
+  date: "13.06.2020"
+  product:
+    name: Lorem ipsum
+    tagline: Pellentesque ornare sem lacinia quam venenatis vestibulum.
+    link: "#"
+    cta-text: Create now
+    features:
+      - id: feature1
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature2
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature3
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+
+
+- id: kindle
+  category: entertainment
+  incentive: Get 50% off
+  date: "13.06.2020"
+  product:
+    name: Lorem ipsum
+    tagline: Pellentesque ornare sem lacinia quam venenatis vestibulum.
+    link: "#"
+    cta-text: Create now
+    features:
+      - id: feature1
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature2
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+      - id: feature3
+        title: Feature
+        content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.

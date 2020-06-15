@@ -1,0 +1,10 @@
+
+{% if page.language %}
+  {% assign site-link = site.data.languages.[page.language].site-link %}
+{% else %}
+  {% assign site-link = site.data.languages.de.site-link %}
+{% endif %}
+
+<a id="track-se-logo{{include.placement | prepend: '-'}}" class="logo{% if include.small %} logo--sm{% endif %}" href="https://www.secretescapes.de">
+  <img src="{{site.img}}/logo/secret-escapes.svg" alt="Secret Escapes logo"> präsentiert
+</a>

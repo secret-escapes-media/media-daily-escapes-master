@@ -1,0 +1,29 @@
+<!--
+  single page navigation for each section. Very similar to the nav/site.html
+    - removes group nav
+    - id link
+    - no is-current class
+    - is sticky for whole page after banner
+    - manually entered offer section
+-->
+
+
+<div class="site-nav js-sticky-nav">
+  <div class="site-nav__scroll-wrap">
+      <div class="bv-btn-accordion text--white" >
+          <div class="text--white bv-collapsible accordion bg--bv-accordion title title--xs text--bold text--upper">
+            <div class="vpad--xs">Kategorie wählen:</div>
+          </div>
+          <div class="bv-content text--left text text--lg">
+             <div class="text--white text--bold">
+               {% for section in site.data.categories %}
+               <div id="bv-nav-item" class="site-nav__bv-item">
+                 <a class="site-nav__bv-link site-nav__link--{{section.id}}" href="#{{section.id}}">{{section.title}}</a>
+               </div>
+                  {% endfor %}
+              </div>
+          </div>
+
+      </div>
+  </div>
+</div>

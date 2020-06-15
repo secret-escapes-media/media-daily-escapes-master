@@ -1,0 +1,22 @@
+# Site settings
+title: Secret Escapes
+
+core-se-link: https://www.secretescapes.de/aktuelle-angebote
+description: >
+  Es ist soweit, wir können wieder reisen! Frischen Sie Ihre Garderobe auf, packen Sie die Koffer, lernen Sie vielleicht sogar einige Sätze auf Spanisch - und auf in die Welt! Sie bleiben vorerst daheim? Dann helfen wir dabei, etwas Farbe in Ihren Alltag zu bringen.
+
+# file paths
+url:     "https://www.secretescapes.com" # the base hostname & protocol for your site
+baseurl: "/de/daily-escapes" # the subpath of your site, e.g. /blog/
+img:     "/de/daily-escapes/_assets/img"
+css:     "/de/daily-escapes/_assets/css"
+js:      "/de/daily-escapes/_assets/js"
+
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules, gulpfile.js, package.json, package-lock.json, js/script.js]
+keep_files: [_assets]
+sass:
+    sass_dir: css
+    style: compressed

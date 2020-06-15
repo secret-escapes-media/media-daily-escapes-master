@@ -1,0 +1,24 @@
+
+
+<div class="article card">
+  <a href="javascript:void(0);" class="product__link js-open-modal" data-modal-group="modal-products" data-open-modal="{{forloop.index}}" data-modal-item="{{product.id}}"></a>
+  <div class="product__hero boxpad--md bg--white">
+    <div class="product__hero-content">
+      <div class="icon product__hero-icon" style="background-image: url({{site.img}}/product/{{product.id}}/icon-.jpg);"></div>
+      <div class="space--xs"></div>
+      <div class="text--white text--sm">{% if product.date %}Posted on: {{product.date}}{% endif %}</div>
+      <h2 class="text text--white text--xxxxl text--bold">{{forloop.index}}. {{product.id}}</h2>
+    </div>
+    <div class="product__hero-bg " style="background-image: url({{site.img}}/categories/{{product.category}}/{{product.id}}/bg.jpg);"></div>
+  </div>
+  <div class="product__incentive boxpad--md bg--white" >
+    <div class="row row--valign-center">
+      <div class="col col--12">
+        <div class="text--md text--bold">{{product.incentive}}</div>
+        <div class="text--md">{{product.product.tagline}}</div>
+    <div class="space--sm"></div>
+        <a href="javascript:void(0);" class="btn btn--xs btn--outline btn--outline">Mehr erfahren</a>
+      </div>
+    </div>
+  </div>
+</div>

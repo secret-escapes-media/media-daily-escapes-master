@@ -1,0 +1,126 @@
+
+
+- id: mode
+  group: all
+  category: mode
+  title: bestsecret
+  nav-title: Valletta
+  gallery-nav: bv-gallery-nav
+  description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+
+
+  product:
+
+    - id: highlight1
+      partner: bestsecret
+      title: Best Secret
+      incentive: Get 50% off
+      date: "14.06.2020"
+      description: "Das Juwel Vallettas ist die berühmte St. John’s Co-Cathedral, der zweite Sitz des Erzbischofs von Malta. Der Bau dieser prächtigen, reich dekorierten Kathedrale mit vergoldeten Wänden und kunstvoll bemalten Gewölben soll über 100 Jahre gedauert haben. "
+      cta-text: #Create now
+
+      features:
+        - id: feature1
+          title: Feature
+          content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+        - id: feature2
+          title: Feature
+          content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+        - id: feature3
+          title: Feature
+          content: Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+
+
+    - id: highlight2
+      partner: breuninger
+      title: Breuninger
+      incentive: Get 50% off
+      date: "14.06.2020"
+      description: "Von Maltas langer Geschichte erzählen vor allem die vielen Museen in Valletta. Schreiten Sie wie einst Napoléon Bonapartes durch die Gänge des Großmeisterpalastes, dem il-Palazzi. Im ehemaligen Auberge de Provence wacht das Archäologische Nationalmuseum "
+
+    - id: highlight3
+      partner: marcopolo
+      title: Marco Polo
+      incentive: Get 50% off
+      date: "14.06.2020"
+      description: "Am höchsten Punkt auf der St. Peter and St. Paul Bastion, über dem Grand Harbour und mit imposantem Ausblick über 'Die Drei Städte' Vittorosia, Senglea und Cospicua, befinden sich die Upper Barrakka Gardens. In den ehemaligen Privatgärten erwarten Sie neben ."
+
+
+  pois:
+
+    items:
+
+      - id: highlight1
+        partner: bestsecret
+        title: Best Secret
+        incentive: Get 50% off
+        date: "14.06.2020"
+        description: "Das Juwel Vallettas ist die berühmte St. John’s Co-Cathedral, der zweite Sitz des Erzbischofs von Malta. Der Bau dieser prächtigen, reich dekorierten Kathedrale mit vergoldeten Wänden und kunstvoll bemalten Gewölben soll über 100 Jahre gedauert haben. "
+
+      - id: highlight2
+        partner: breuninger
+        title: Breuninger
+        incentive: Get 50% off
+        date: "14.06.2020"
+        description: "Von Maltas langer Geschichte erzählen vor allem die vielen Museen in Valletta. Schreiten Sie wie einst Napoléon Bonapartes durch die Gänge des Großmeisterpalastes, dem il-Palazzi. Im ehemaligen Auberge de Provence wacht das Archäologische Nationalmuseum "
+
+      - id: highlight3
+        partner: marcopolo
+        title: Marco Polo
+        incentive: Get 50% off
+        date: "14.06.2020"
+        description: "Am höchsten Punkt auf der St. Peter and St. Paul Bastion, über dem Grand Harbour und mit imposantem Ausblick über 'Die Drei Städte' Vittorosia, Senglea und Cospicua, befinden sich die Upper Barrakka Gardens. In den ehemaligen Privatgärten erwarten Sie neben ."
+
+
+
+
+
+################################################################################
+
+
+
+- id: entertainment
+  group: all
+  title: Unterhaltung
+  nav-title: Malta feiert
+  gallery-nav: bv-gallery-nav
+  description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+
+  pois:
+
+    nav:
+    items:
+
+      - id: highlight6
+        title: Valletta International Baroque Festival
+        months: (Januar)
+        description: Beim Valletta International Baroque Festival erleben Sie den authentischen Zauber der Barockmusik in einer von Europas faszinierendsten Hauptstädten. Renommierte Barock-Musiker interpretieren musikalische Perlen des 16. bis 18. Jahrhunderts wie etwa von Bach, Vivaldi, Schütz und Purcell. Als Kulissen dienen historische Sehenswürdigkeiten wie das Teatru Manoel, der Präsidentenpalast, die berühmte St. John’s Co-Kathedrale sowie die prächtigen Barockkirchen der&nbsp;Stadt.
+
+      - id: highlight7
+        title: Karnival Ta´Malta
+        months: (Februar - März)
+        description: "Maskenbälle, Kostümierungen von grotesk bis kunterbunt, ausgelassene Paraden und Mitternachtspartys sowie natürlich der große Karnevalsumzug – der Karnival Ta´Malta, ein extravagantes Fest für alle Altersgruppen, verbreitet sich im Februar ausgehend von Valletta und Floriana über die ganze Insel. Mischen Sie sich unter die feiernden Menschen und probieren Sie typische Karnevals-Leckereien wie Perlini, die sizilianisch geprägten Sfrappole und nicht zu vergessen&nbsp;Prinjolata."
+
+      - id: highlight8
+        title: Malta International Fireworks Festival
+        months: (April - Mai)
+        description: "Auf Malta gilt: kein Fest ohne Feuerwerk. Böller und Raketen haben eine lange Tradition, die bis ins 16. Jahrhundert zurückreicht. Heute produzieren immerhin noch 35 lokale Fabriken Feuerwerk und jedes Jahr finden sich internationale Experten auf der Insel ein, um sich im April und Mai beim Malta International Fireworks Festival miteinander zu messen. Bewundern Sie pyromusikalische Meisterwerke und seien Sie dabei, wenn Himmel und Mittelmeer nachts in hellen Farben&nbsp;erstrahlen."
+
+      - id: highlight9
+        title: Valletta Film Festival
+        months: (Juni)
+        description: "Im Juni verwandelt sich Valletta in ein großes urbanes Kino. 40 Spielfilme und 25 Kurzfilme werden an verschiedenen Orten in der ganzen Stadt gezeigt, außerdem finden Meisterkurse, Konferenzen und Debatten über Film und Zeitgeschehen statt. Wussten Sie, dass Malta ebenfalls einer der beliebtesten Drehorte ist? Regisseure wie Steven Spielberg und Ridley Scott drehten hier und zahlreiche Hollywood-Blockbuster wie Gladiator, Troja und Der Graf von Monte Christo wurden vor Ort gefilmt. Serienliebhaber werden Kulissen aus Game of Thrones wiederkennen, wie das Mdina Gate als Tor von King’s&nbsp;Landing."
+
+      - id: highlight10
+        title: Jazzfestival Valletta
+        months: (Juli)
+        description: "Eines der wichtigsten Ereignisse des Sommers ist das Malta Jazz Festival. Im Hafen von Valletta, vor den Bastionen des Grand Harbour, findet es in Ta' Liesse vor einer einzigartigen Kulisse statt. Musikalische Größen und Newcomer aus der ganzen Welt versammeln sich hier an der Valletta Waterfront, um in warmen Sommernächten gemeinsam unter freiem Himmel zu sitzen, erstklassige mediterrane Küche zu genießen und Jazzmusik zu&nbsp;hören."
+
+      - id: highlight11
+        title: "DJ- und Musik-Events"
+        months:
+        description: "Malta ist ein beliebtes Sprachreiseziel und mit ihren Schwestern Gozo und Comino ein angesagter Tauchspot. Aber auch die junge Musikszene fühlt sich hier zuhause: angefangen beim Geheimtipp, dem alternativen Earth Garden Festival, über das Annie Mac Lost & Found, eine riesige Strandparty mit etlichen DJs und Live-Artists, bis zur Isle of MTV-Reihe, die neben Konzerten auch Clubnächte und Strandpartys&nbsp;umfasst."
+
+
+
+################################################################################

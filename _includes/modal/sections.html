@@ -1,0 +1,94 @@
+<!--
+  creates modals for all of the sections that appear on the single page
+  creates a series modal so user can nav between each poi in the current section
+  will also load in normal modals that appear in /data/modals.yml
+-->
+<div class="js-modal modal__bg is-closed">
+  <div class="modal__wrap">
+
+    {% for section in site.data.sections %}
+
+      {% for item in section.product %}
+
+      <div class="modal modal--series is-closed" data-modal-id="{{item.id}}" data-modal-group="{{section.group}}">
+          <div class="js-close-modal modal__close"></div>
+
+          <div class="js-modal-nav modal__nav modal__nav--next"  data-nav-direction="next"></div>
+          <div class="js-modal-nav modal__nav modal__nav--previous" data-nav-direction="previous"></div>
+
+
+
+          <div class="modal-product__image bg-img bg-img--21-9" style="background-image: url({{site.img}}/categories/{{section.id}}/{{item.id}}/bg.jpg);">
+            <div class="modal-product__image-category bg--white text--white">
+              <div class="modal-product__image partner-logo bg--white"> <img src="{{site.img}}/categories/{{section.id}}/{{item.id}}/partner-logo.png" alt="{{item.id}} logo"></div>
+<div class="space--md"></div>
+  <h4 class="title title--serif title--sm text--white text--bolder">{{item.incentive}}</h4>
+    <h4 class="title title--xs text--white text--normal ">{{item.incentive-detail}}</h4>
+            </div>
+          </div>
+
+          <div class="modal__content text--xl">
+
+           <div class="modal-product__title text--center">
+                <div class="space--sm"></div>
+                <p class="text--sm text--bold text--upper" style="letter-spacing:2px;">{{section.title}}</p>
+                  <div  class="space--sm"></div>
+                <h3 class=" width width--lg title title--lg title--serif text--bolder">{{item.content-title}}</h3>
+                <div class="space--sm"></div>
+                <p class="text--xxl text--bold">{{item.tagline}}</p>
+
+                <div class="space--xxs"></div>
+                <p class="text--md width width--lg">{{item.description}}</p>
+              </div>
+
+            <div  class="space--xs"></div>
+
+              {% for feature in item.features %}
+              <div class="boxpad--xl">
+              <div class="bob {% cycle '', 'bob--swap' %}">
+                <div class="bob__img">
+                  <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/categories/{{section.id}}/{{item.id}}/{{feature.id}}.jpg);"></div>
+                </div>
+                <div class="bob__text">
+                  <h4 class="title title--xs text--bold">{{feature.title}}</h4>
+                  <div class="space--sm"></div>
+                  <p class="text--md">{{feature.content}}</p>
+                </div>
+              </div>
+            </div>
+              {% endfor %}
+
+          </div>
+
+
+            <div class="boxpad--xxl bg--turq text--white text--center" >
+              <h4 class="title title--serif title--md">{{item.offer-title}}</h4>
+              <div class="space--xs"></div>
+              <p class="width width--lg text--xxxl text--bold">{{item.offer-description}}</p>
+
+            <h3 class=" width width--lg title title--xs title--serif text--bold">{{item.offer-rebate}}</h3>
+              <div class="space--md"></div>
+              <a href="{{item.link}}" target="_new" class="btn btn--outline btn--outline-white">{% if item.cta-text %}{{item.cta-text}}{% else %}Zum Angebot{% endif %}</a>
+              <div class="space--md"></div>
+              <div class="width width--lg">
+                <p class="text--xs">{% if item.terms %}{{item.terms}}<br>{% endif %} AGBs s. Partnerseite</p>
+              </div>
+            </div>
+              <div class="boxpad--lg bg--turq text--white text--center"  style="border-top: #28B8C7 1px solid;">
+            <div class="width width--lg">
+              <p class="text--xs"> Hinweis: <br>Secret Escapes übernimmt keine Haftung bei erfolgloser Ausführung oder Zustellung des beworbenen Partnerproduktes, sondern fungiert als reiner Vermittler.</p>
+              <div class="space--md"></div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      {% endfor %}
+    {% endfor %}
+
+
+
+  </div>
+</div>

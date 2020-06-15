@@ -1,0 +1,257 @@
+
+
+- id: erlebnisse
+  group: all
+  title: Erlebnisse
+  gallery-nav: bv-gallery-nav
+  description: "Dort draußen, in der Welt, gibt es immer etwas neues zu sehen, zu hören, zu erleben."
+
+  product:
+
+    - id: porsche1
+      tile-title: Porsche Fahrprogramm
+      tile-summary: Pilot Programm in Ihrem Porsche Wunschmodell. Fahrspaß garantiert im Porsche Experience Center Hockenheimring.
+      incentive: 20% reduziert
+      incentive-detail: "plus hochwertiges Give&nbsp;Away"
+      tile-cta-text: Zum Porsche Pilot-Programm
+      date: "12.06.2020"
+      hero: favourite
+      link: https://booking.porsche-experiencecenter-hockenheimring.de/app/driving/pilot
+      content-title: "Pilot Programm: <br> Porsche Experience Center Hockenheimring"
+      tagline: Sie nehmen das Steuer gerne selbst in die Hand? Hier sind Sie richtig.
+      offer-title: "Special offer: Pilot Programm"
+      offer-description: 20% reduziert & hochwertiges Give Away (Curves Magazin und "gone Driving" Andenken)
+      terms: #
+
+      features:
+
+        - id: feature1
+          title: In Ihrem Porsche Wunschmodell
+          cta: Jetzt buchen
+          content: "Sie sind auf der Suche nach Ihrer persönlichen Ideallinie? Dann nehmen Sie auf dem Fahrersitz Platz und begeben sich - instruiert von einem Porsche Instrukteur - auf den herausfordernden Rundkurs. Meter für Meter und Runde für Runde tasten Sie sich heran, bis Ideallinie, Einlenk-, Brems- und Beschleunigungspunkt quasi Muttersprache sind."
+
+
+    - id: porsche2
+      tile-title: Porsche Pilot-Mix
+      tile-summary: Pilot Programm in 2 Porsche Wunschmodellen. Doppelter Fahrspaß im Porsche Experience Center Hockenheimring.
+      incentive: 20% reduziert
+      incentive-detail: "plus hochwertiges Give&nbsp;Away"
+      tile-cta-text: Zum Porsche Pilot-Mix
+      date: "12.06.2020"
+      hero: #
+      link: https://booking.porsche-experiencecenter-hockenheimring.de/app/driving/pilot-mix
+      content-title: "Porsche Pilot-Mix: <br>Porsche Experience Center Hockenheimring"
+      tagline: Egal ob Front-, Mittel- oder Heckmotor. Der Fahrspaß ist vorprogrammiert.
+      offer-title: "Special offer: Porsche Pilot-Mix"
+      offer-description: 20% reduziert & hochwertiges Give Away (Curves Magazin und "gone Driving" Andenken)
+
+      terms: #
+
+      features:
+
+        - id: feature1
+          title: 2 Porsche Wunschmodelle
+          cta: Jetzt buchen
+          content: "2 Porsche Wunschmodelle in einem Fahrprogramm. Sie werden schnell feststellen, warum jeden von ihnen so viel Faszination hervorruft. Ein professioneller Instrukteur zeigt Ihnen, wie sie das Maximum aus den Modellen herausholen und mit kompromisslosem Fahrspaß belohnt werden."
+
+
+################################################################################
+
+- id: beauty
+  group: all
+  category: beauty
+  title: Beauty
+  gallery-nav: bv-gallery-nav
+  description: "Wahre Schönheit kommt von innen, klar. Mit diesen Beauty- und Pflegeprodukten kommt sie noch besser zur Geltung."
+  cta-text: #
+
+
+  product:
+
+    - id: yvesrocher
+      partner: #yvesrocher
+      tile-title: Yves Rocher
+      tile-summary: Lassen Sie sich von Secret Escapes inspirieren und stöbern Sie durch die das bunt aufgestellte Sortiment von Yves Rocher
+      hero: latest
+      incentive: "15%"
+      incentive-detail: "ab 45€ Mindest&shy;bestellwert"
+      tile-cta-text: Mehr erfahren
+      date: "12.06.2020"
+      link: https://clk.tradedoubler.com/click?a(3159477)p(195105)ttid(13)
+      content-title: Yves Rocher
+      tagline: Schönheit und Natur vereint
+      description: "Die Marke Yves Rocher ist einzigartig in Ihrer Art: die leidenschaftliche Kombination aus ernsthaftem Umweltengagement und qualitativ hochwertiger und zugleich geschmackvoller Kosmetik schafft ein unvergleichliches Produkt. Die von Experten entworfene Pflanzen-Kosmetik birgt die Kunst, die Schönheit einer jeden Frau optimal hervorzuheben und zu pflegen."
+      cta-text: #Create now
+      offer-title: "Special offer"
+      offer-rebate: "Rabattcode: RABATTYR15"
+      offer-description: 15% ab einem Mindestbestellwert von 45€
+      terms: "*gültig bis zum 14.10.2020"
+
+      features:
+
+        - id: feature1
+          title: Kosmetik in allen Facetten
+          content: "Von wirkungsvollen Cremés, die für jeden Hauttyp entwickelt und angepasst sind, über Make-Up-Produkte, die sowohl mit dezenten Farbtönen als auch spannenden Kontrasten aufwarten, bis zu traumhaft duftenden Parfums und Duschlotions, die einen auch draußen noch auf einer Wolke schweben lassen – bei Yves Rocher wird jede Beauty-Liebhaberin fündig."
+        - id: feature2
+          title: Magische Wohlfühlmomente
+          content: Lassen Sie sich von Secret Escapes inspirieren und stöbern Sie durch die das bunt aufgestellte Sortiment von Yves Rocher, welches Ihnen glückliche Momente und Wohlfühlerlebnisse der höchsten Stufe bescheren wird – und gleichzeitigen unterstützen Sie mit jedem Kauf die Natur. Sparen Sie jetzt mit unserem Vorteilsangebot 15% auf Ihre nächste Buchung!*
+
+
+
+################################################################################
+
+
+- id: bildung
+  group: all
+  title: Bildung & Unterhaltung
+  gallery-nav: bv-gallery-nav
+  description: "Für mehr weibliche und POC-Autoren, für mehr Bildung und mehr Toleranz. Es ist Zeit, Ihren Horizont zu erweitern."
+  cta-text: #
+
+
+  product:
+
+    - id: rosettastone
+      tile-title: Rosetta Stone
+      tile-summary: "Die Welt ist Ihnen ein Rätsel? Die Sprachsoftware von Rosetta Stone hilft Ihnen, mehr davon zu verstehen."
+      hero: #
+      incentive: 50% Rabatt
+      incentive-detail: "auf eine Jahreslizenz mit 24 Sprachen"
+      tile-cta-text: Mehr erfahren
+      date: "12.06.2020"
+      link: #https://language4you.online/
+      content-title: Rosetta Stone
+      tagline: #
+      description: Die Welt ist Ihnen ein Rätsel? <br> Die Sprachsoftware von Rosetta Stone hilft Ihnen, mehr davon zu&nbsp;verstehen.
+      cta-text: #Create now
+      offer-title: "Special offer"
+      offer-rebate: "Rabattcode: SECRET24u2"
+      offer-description: 50% Rabatt auf Jahreslizenz mit 24 Sprachen
+      terms: #
+
+      features:
+
+        - id: feature1
+          title: Kulturelle Facetten von Zuhause entdecken
+          content: "Wie sein Namensgeber aus dem British Museum bringt die Lernsoftware von Rosetta Stone Licht ins Dunkel der Sprachwelt. Mit der Methode der Dynamic Immersion® wird aus dem Vokabelpauken eine Kür; andere nützliche Features wie die TruAccent®-Technologie sprechen ebenfalls Bände."
+        - id: feature2
+          title: Von Spanisch bis Vietnamesisch
+          content: "Für nur 79€ bekommen Sie eine 12-monatige Lizenz und können so statt nur einer Sprache zwischen allen 24 Sprachen auf Rosetta Stone wählen. Sagen wir Russisch oder Tagalog - wie hört sich das an?"
+
+
+
+    - id: hugendubel
+      tile-title: Hugendubel
+      tile-summary:  Egal ob Krimi, Thriller oder Roman, bei Hugendubel ist jeder Bücherwurm im siebten Himmel.
+      hero: #
+      incentive: "50%"
+      incentive-detail: "und mehr sparen auf eBooks"
+      tile-cta-text: Mehr erfahren
+      date: "12.06.2020"
+      link: https://clk.tradedoubler.com/click?a(3159477)p(249407)ttid(13)url(https://www.hugendubel.de/de/category/83591/reduzierte_ebooks.html?adCode=732Q40W41B12Z&utm_source=trd&utm_medium=af&utm_content=T&utm_campaign=eB)
+      content-title: Hugendubel
+      tagline: Vom Bestseller bis zur Fachliteratur
+      description: Auf der Suche nach neuen Abenteuern?  Egal ob Krimi, Thriller oder Roman, bei Hugendubel ist jeder Bücherwurm im siebten Himmel. Vergessen Sie den Alltag und lassen Sie sich in eine andere Welt entführen – reisen sie in fantastische Welten, erleben Sie Nervenkitzel hautnah und lachen Sie herzlich bei dem bunten Sortiment, welches Literatur für jeden Geschmack bietet.
+      cta-text: #Create now
+      offer-title: "Special offer"
+      offer-description: 50% und mehr sparen auf eBooks*
+      terms: "*Gültig bis zum 30.09.2020 "
+
+      features:
+
+        - id: feature1
+          title: Nur einen Klick entfernt
+          content: Dank jahrelanger Erfahrung ist Ihre neueste Errungenschaft in Windeseile bei Ihnen. Vorbei sind die Zeiten mit gewichtigen Büchern im Rucksack – mithilfe eines eBook-Readers sind Sie auf dem technischen Höhepunkt der Literatur angekommen. Der Lesegenuss wird dadurch kein bisschen verringert!
+        - id: feature2
+          title: Vielfältiges Angebot
+          content: Stöbern Sie nach Lust und Laune im umfangreichen Sortiment. Lassen Sie sich jetzt von Secret Escapes und Hugendubel inspirieren und reisen Sie auf virtuellem Wege in die Fantasiewelten namhafter Autoren, bilden Sie sich weiter mit spannender Fachlektüre und vor allem – sparen Sie mit einem Klick auf den Button 50% und mehr auf Ihr nächstes eBook!
+
+
+
+################################################################################
+
+
+
+
+- id: zuhause
+  group: all
+  title: Zu Hause
+  gallery-nav: bv-gallery-nav
+  description: "Wenn wir so viel Zeit zuhause verbringen, sollten wir uns dort absolut wohlfühlen. Machen Sie das Allerbeste aus den eigenen vier Wänden."
+  link: "#"
+  cta-text: #
+
+
+  product:
+
+    - id: butlers
+      tile-title: Butlers
+      tile-summary: "Kleine Balkone zu großen Stars: Urlaub daheim wird noch besser"
+      incentive: "15%"
+      incentive-detail: "außer auf reduzierte Ware"
+      tile-cta-text: Mehr erfahren
+      date: "12.06.2020"
+      link: #
+      content-title: Butlers
+      tagline: "Kleine Balkone zu großen Stars: Urlaub daheim wird noch besser"
+      description: Wir verraten euch die wichtigsten Kniffe, mit denen ihr alles aus eurem Balkönchen herausholen könnt – damit die große Sonnenterrasse der Nachbarn nicht mehr zum Neidobjekt wird.
+      offer-title: "Special offer"
+      offer-description: 50% Rabatt*
+      cta-text: #Create now
+      terms: "*außer auf reduzierte Ware "
+
+      features:
+
+        - id: feature1
+          title: Klapp und weg – Outdoor-Möbel
+          content: Mit zwei Handbewegungen wird die Frühstücksterrasse zum Mini-Strand und schon liegt ihr auf eurer Sonnenliege. Outdoor-Möbel zum Aufklappen und Hängematten und Hängesessel präsentieren sich als ziemlich kompakt und flexibel. So schnell wie sie aufgestellt sind, könnt ihr diese bei Bedarf wieder abbauen und zur Seite räumen.
+        - id: feature2
+          title: Multitalente bei Platzproblemen
+          content: Wer keinen Millimeter auf seinem Balkon zu verschenken hat, der setzt auf funktionale Möbel. Statt großen Tischen und Sonnenschirmen greift lieber zu Modellen, die ihr am Balkongeländer befestigen könnt. Oder entscheidet euch für halbrunde Versionen, so sind euch keine Tischbeine oder Sonnenschirmfüße im Weg.
+        - id: feature3
+          title: Privatsphäre dank Blumen und Pflanzen
+          content: Blumen und Pflanzen sorgen nicht nur für das nötige Frühlings- bzw. Sommerfeeling auf eurem Balkon, sondern auch für eure Privatsphäre. Als Sichtschutz vor neugierigen Augen verwendet könnt ihr euch so in euer eigenes Reich zurückziehen und euch fast wie im kleinen Garten fühlen.
+        - id: feature4
+          title: "Dekoration: Mehr ist mehr"
+          content: Nicht zu vergessen sei das Dekorieren, denn so lässt sich auch ein Mini-Balkon in ein wahres Reich des Rückzugs verwandeln. Tragt ruhig etwas dicker auf mit der Dekoration und setzt zum Beispiel Outdoor-Teppiche in frischen Frühlingsfarben ein. So wird euer Wohnzimmer im Freien gemütlicher – und qualitative Teppiche sind in der Regel UV-beständig, sodass ihre Farben lange kräftig bleiben.
+
+
+################################################################################
+
+
+
+- id: gesundheit
+  group: all
+  title: Gesundheit
+  gallery-nav: bv-gallery-nav
+  description: "Hauptsache gesund - zusammen mit unseren Partnern möchten wir Ihr Wohlbefinden  und Ihre Abwehrkräfte stärken. "
+  cta-text: #
+
+
+  product:
+
+    - id: mybacs
+      tile-title: mybacs
+      tile-summary: "Gesunde Routinen schaffen! Praktisch: Pro-und Präbiotika Kapseln, die deine individuelle Abwehr stärken"
+      incentive: 15€ OFF
+      incentive-detail: "auf dein tägliches Wohlbefinden!"
+      tile-cta-text: Mehr erfahren
+      date: "12.06.2020"
+      link: https://mybacs.com/pages/produktubersicht-dailybacs?utm_source=daily_escapes&utm_medium=affiliate&utm_campaign=dailybacs
+      content-title: mybacs
+      tagline: "Dein täglicher Immun Boost"
+      description: Wir - mybacs - entwickeln speziell auf deine Bedürfnisse zugeschnittene Synbiotika (Pro- und Präbiotika), für tägliches Wohlbefinden jenseits der Verdauung. Diese entsprechen nicht nur den höchsten Standards, sondern sind zusätzlich noch besonders nachhaltig. Dein Mikrobiom im Gleichgewicht!
+      offer-title: "Special offer"
+      offer-description: "Dein Dailybacs Starter-Kit – sicher dir mit dem Code DAILYEXTRA exklusiv 15€ Rabatt!*"
+      cta-text: "Code: Dailyextra"
+      terms: "*15€ Rabatt auf den ersten Monat"
+
+      features:
+
+        - id: feature1
+          title: Happy gut, happy you!
+          content: "Die Dailybacs (Pro- und Präbiotika-Kapseln) von mybacs – sind dafür da, dass du jeden Tag zu jeder Zeit ein gutes Bauchgefühl hast. Das steigert nicht nur deine innere Balance, sondern schafft dir auch eine kleine Morgenroutine im Alltag. Dailybacs sind also eine Art Retreat für deinen Darm und helfen dir, wieder ins Gleichgewicht zu kommen."
+
+        - id: feature2
+          title: Synbiotika als Bio-Futter für die Haut!
+          content: "Ein ausbalanciertes Mikrobiom ist nicht nur für die Verdauung wichtig, sondern auch für Haut und Stimmung. Praktisch: Pro- und Präbiotika-Kapseln, die auf den Stoffwechsel von Frauen, Männern und Kindern abgestimmt sind."

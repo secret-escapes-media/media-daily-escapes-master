@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {% include page/head.html %}
+  <body class="no-js">
+
+    {% include components/tracking.html %}
+
+    {% include page/header.html %}
+
+    <div class="content-spacing section-spacing">
+      {{ content }}
+    </div>
+
+    {% include page/promo-offers.html %}
+
+    {% include page/footer.html %}
+
+    {% include modal/sections.html %}
+
+  </body>
+
+</html>

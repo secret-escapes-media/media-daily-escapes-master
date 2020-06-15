@@ -1,0 +1,22 @@
+
+
+- id: beauty
+  title: Beauty
+  description: Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo.
+
+
+- id: entertainment
+  title: Unterhaltung
+  description: Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo.
+
+#- id: fitness
+#  title: Fitness
+#  description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+
+# - id: learning
+#   title: Learning
+#   description: It’s just one of those things that seemingly always gets put off. But think about how impressive you’ll be strutting through Paris with perfect French at the tip of your tongue. Master that language you’ve always wanted to learn and we’ll credit you toward that future break!
+
+# - id: socialising
+#   title: Socialising
+#   description: Don’t miss out on the pub quiz, the board game marathon, the plans you had with friends. There’s ways that you can still connect during these strange times, and safely hang out with loved ones.

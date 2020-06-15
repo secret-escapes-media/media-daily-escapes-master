@@ -1,0 +1,17 @@
+<div class="billboard bg-img bg-img--3-1" style="background-image: url('{{site.img}}/content/{{page.id}}/banner.jpg')">
+  <div class="bg-img__content">
+    <div class="boxpad--xl">
+      {% if page.banner.content %}
+        {{page.banner.content | liquify}}
+      {% elsif layout.banner.content %}
+        {{layout.banner.content | liquify}}
+      {% else %}
+        <div class="container container--no-padding text--center">
+          {% if page.banner.title-sup %}<h2 class="sub-title">{{page.banner.title-sup}}</h2>{% endif %}
+          <h1 class="title title--xl">{% if page.banner.title %}{{page.banner.title}}{% else %}{{page.title}}{% endif %}</h1>
+          {% if page.banner.title-sub %}<h2 class="sub-title">{{page.banner.title-sub}}</h2>{% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

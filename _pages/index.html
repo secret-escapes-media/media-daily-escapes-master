@@ -1,0 +1,67 @@
+---
+layout: default
+id: overview
+title: Daily Escapes
+magazine: The Escapist
+
+headline: Daily Escapes
+description: "Es ist soweit, wir können wieder reisen! Frischen Sie Ihre Garderobe auf, packen Sie die Koffer, lernen Sie vielleicht sogar einige Sätze auf Spanisch - und auf in die Welt! Sie bleiben vorerst daheim? Dann helfen wir dabei, etwas Farbe in Ihren Alltag zu bringen."
+
+
+---
+
+{% include page/site-banner.html %}
+
+{% assign product = site.data.sections %}
+
+
+<div class="bg--grey-lightest ">
+
+        <!-- loops through section file for page content -->
+        {% for section in site.data.sections %}
+            <div class="container vpad--lg" id="{{section.id}}" style="border-bottom: 4px #fff solid;" >
+  <div class="space--md"></div>
+                  <div class="width width--xl text--center text--xxl text--bold">
+                    <h2 class="title title--md title--serif">{{section.title}}</h2>
+                    <div class="space--md"></div>
+                    <p class="text--xl">{{section.description}}</p>
+                  </div>
+
+              <div class="space--xl"></div>
+                <div class="row row--gutters-md">
+
+
+                    {% for poi in section.product %}
+
+                    <div class="col col--lg-6 col--xl-4">
+                      <div class="article card">
+                        <a id="tracking-poi-{{poi.id}}" href="javascript:void(0);" class="product__link js-open-modal" data-modal-group="modal-products" data-open-modal="{{poi.id}}" ></a>
+                        <div class="product__hero boxpad--md bg--black">
+                          <div class="product__hero-content">
+                            <div class="icon product__hero-icon bg--white" style="background-image: url({{site.img}}/categories/{{section.id}}/{{poi.id}}/icon.png);"></div>
+                            <div class="space--sm"></div>
+                            <div class="text--sm text--white">{% if poi.date %}Gepostet am: {{poi.date}}{% endif %}</div>
+                            <h2 class="title text--white title--md text--bolder">{{poi.incentive}}</h2>
+                            <h2 class="text text--white text--md text--bold">{{poi.incentive-detail}}</h2>
+                          </div>
+                          <div class="product__hero-bg " style="background-image: url({{site.img}}/categories/{{section.id}}/{{poi.id}}/bg.jpg); opacity: .7;"></div>
+                        </div>
+                        <div class="product__incentive boxpad--md bg--white" >
+                          <div class="row row--valign-center">
+                            <div class="col col--12">
+                              <div class="text--md text--bolder text--upper">{{poi.tile-title}}</div>
+                              <div class="text--md">{{poi.tile-summary}}</div>
+                          <div class="space--sm"></div>
+                              <a href="javascript:void(0);" class="btn btn--xs btn--outline btn--outline">{{poi.tile-cta-text}}</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                {% endfor %}
+                  <div class="space--xl"></div>
+                </div>
+            </div>
+
+          {% endfor %}
+</div>

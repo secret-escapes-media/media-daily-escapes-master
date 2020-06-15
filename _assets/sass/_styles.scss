@@ -1,0 +1,262 @@
+
+
+
+/* ==========================================================================
+   Parallax
+   ========================================================================== */
+
+.bv-parallax{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 30% center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 1024px) {
+
+.bv-remove-bg{
+  background-image: none!important;
+}
+
+.bv-topic-hero{ background-size: contain; }
+
+.bv-parallax{
+      background-attachment: scroll;
+      background-repeat: no-repeat;
+
+  }
+}
+
+/* ==========================================================================
+ Select box
+========================================================================== */
+select {
+
+  width: 100%;
+  padding: 5px 35px 5px 15px;
+  line-height: 30px;
+  border: 1px solid $orange;
+  height: 50px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../img/icons/drop-down-arrow.svg) 96% / 15% no-repeat ;
+  background-size: 5%;
+  background-color: $orange;
+}
+
+select > option {
+
+  padding: 5px 35px 5px 15px;
+  line-height: 30px;
+
+}
+
+
+
+
+/* ==========================================================================
+ Collapsible
+========================================================================== */
+
+
+.bv-btn-accordion {
+  margin-bottom: 3px;
+
+  @include bp($xxxl){
+    margin-bottom: 4px;
+  }
+}
+
+
+.accordion {
+    cursor: pointer;
+    width: 100%;
+    height: 68px;
+    padding: 14px;
+    transition: 0.4s;
+      background-color: rgba($orange, 1);
+
+    @include bp($lg){
+      height: 100px;
+      padding: 20px;
+    }
+}
+
+.accordion::after{
+  content: url(../img/icons/close.svg);
+  transform: scale(.24) rotate(-45deg);
+  display: block;
+  margin-top: -45px;
+  margin-bottom: -18px;
+  margin-left: 94%;
+  transition: all 0.3s ease-out;
+
+  @include bp($lg){
+    display: block;
+    margin-top: -53px;
+    margin-bottom: -18px;
+    margin-left: 96%;
+  }
+
+  @include bp($xl){
+    display: block;
+    margin-top: -58px;
+
+  }
+}
+.accordion:hover{
+  background-color: rgba($orange-dark, 1);
+  color: $white;
+ }
+
+.bv-active{
+  background-color: rgba($orange-dark, 1);
+  color: $white;
+ }
+
+.bv-active::after {
+  content: url(../img/icons/close.svg);
+  transform: scale(.25) rotate(0deg);
+  margin-left: 93%;
+  transition: all 0.3s ease-out;
+  margin-top: -50px;
+
+  @include bp($lg){
+    transform: scale(.25) rotate(0deg);
+    margin-left: 96%;
+    transition: all 0.4s ease-out;
+    margin-top: -58px;
+  }
+}
+
+.bv-active-caption{
+ background-color: rgba($white, .65);
+
+ @include bp($xxxl){
+
+    background-color: rgba($white, .85);
+ }
+}
+
+.bv-collapsible {
+  cursor: pointer;
+}
+
+.bv-content {
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+  transition: all 0.5s ease-out;
+
+    background-color: rgba($orange, 1);
+}
+
+
+/* ==========================================================================
+ Products
+========================================================================== */
+
+.card {
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 3px 6px 0 rgba($grey-darkest,0.1);
+  @include transition;
+  &:hover { box-shadow: 0 3px 12px 0 rgba($grey-darkest,0.2); }
+  &--flat {
+    box-shadow: 0 0 1px 1px rgba($grey-darkest,0.1);
+    &:hover { box-shadow: 0 0 1px 1px rgba($grey-darkest,0.1); }
+  }
+}
+
+.icon {
+  @include background-attributes;
+  position: relative;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba($grey-darkest,0.2);
+}
+
+
+.product {
+  position: relative;
+  &__link {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: 2;
+  }
+  &__hero {
+    position: relative;
+    &-content {
+      z-index: 1;
+      position: relative;
+    }
+    &-icon {
+      margin-right: $s-2;
+      height: $s7; width: $s7;
+    }
+    &-bg {
+      @include background-attributes;
+      position: absolute;
+      left: 0; right: 0;
+      top: 0; bottom: 0;
+      z-index: 0;
+      background-color: $black;
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        z-index: 1;
+        left: 0; top: 0; bottom: 0;
+      }
+    }
+  }
+  &__incentive {}
+}
+
+
+.article {
+  position: relative;
+  &__link {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: 2;
+  }
+  &__meta {
+    &-separator { color: $grey-lighter; margin: 0 $s0; }
+  }
+}
+
+
+
+.comment {
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  &__icon {
+    background-image: url('../img/icons/comment.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40%;
+    max-width: 70px;
+    margin-left: auto; margin-right: auto;
+    margin-bottom: $s2;
+    &:before {
+      content: "";
+      display: block;
+      width: 100%;
+      padding-top: 100%;
+    }
+  }
+}
+
+.bv-mob-show{
+  display: none;
+  @include bp($md) { display: block; }
+}
+.bv-mob-hide{
+  display: block;
+  @include bp($md) { display: none; }
+}
