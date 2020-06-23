@@ -1,0 +1,78 @@
+
+<div id="bv-roadtrips">
+{% include page/roadtrips/roadtrip1.html %}
+</div>
+
+<div id="bv-road-ie">
+
+  {% include page/roadtrips/roadtrip1-ie.html %}
+</div>
+<script>
+  var elem = document.getElementById("bv-road-ie");
+  var elem2 = document.getElementById("bv-roadtrips");
+  var isIE11 = !!window.MSInputMethodContext && !!document.documentMode;
+
+  if (isIE11 === true) {
+        elem2.parentNode.removeChild(elem2);
+  }else{
+      elem.parentNode.removeChild(elem);
+  }
+</script>
+<div class="hero">
+
+  <div class="hero__inner bv-parallax" style="background-image: url('{{site.img}}/hero/hero.jpg')">
+    <div class="container text--center boxpad--lg">
+      <div class="vpad--md">
+        <div class="space--md"></div>
+        <div class="width width--xl text--white">
+
+
+            <img class="logo-daily-escapes" src="{{site.img}}/logo/daily-escapes-white.svg" alt="Daily Escapes logo">
+
+
+          <div class="space--xs"></div>
+          <p class="text--xl">{{page.description}}</p>
+          <div class="space--xs"></div>
+        </div>
+      </div>
+        <div class="row row--match-height">
+          {% for section in site.data.sections %}
+
+                              {% for poi in section.product %}
+  {% if  poi.hero == 'favourite' or poi.hero == 'latest' %}
+  <div class="col col--lg-6 col--xl-4">
+    <div class="article card">
+      <a href="#{{section.id}}" class="article__link"></a>
+      <div class="bg-img bg-img--16-9" style="background-image: url('{{site.img}}/categories/{{section.id}}/{{poi.id}}/bg.jpg');"></div>
+      <div class="boxpad--md bg--white">
+         {% if poi.hero == 'favourite' %}
+           <h2 class="text--md text--bolder text--upper">Beliebtester Deal</h2>
+           {% endif %}
+            {% if poi.hero == 'latest' %}
+              <h2 class="text--md text--bolder text--upper">Neuester Deal</h2>
+              {% endif %}
+              <div class="text--md">{{poi.tile-title}}</div>
+        <div class="space--xs"></div>
+        <div class="btn btn--xs btn--outline">Zum Angebot</div>
+      </div>
+    </div>
+
+  </div>
+
+                            {% endif %}
+                          {% endfor %}
+           {% endfor %}
+
+
+
+        </div>
+    </div>
+  </div>
+
+  <!-- site nav -->
+  <div class="banner__nav ">
+    {% include nav/sections.html %}
+  </div>
+
+
+</div>

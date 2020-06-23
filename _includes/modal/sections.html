@@ -18,12 +18,14 @@
 
 
 
-          <div class="modal-product__image bg-img bg-img--21-9" style="background-image: url({{site.img}}/categories/{{section.id}}/{{item.id}}/bg.jpg);">
+          <div class="modal-product__image bg-img bg-img--4-3 bg-img--lg-16-9 bg-img--xl-21-9" style="background-image: url({{site.img}}/categories/{{section.id}}/{{item.id}}/bg.jpg);">
             <div class="modal-product__image-category bg--white text--white">
               <div class="modal-product__image partner-logo bg--white"> <img src="{{site.img}}/categories/{{section.id}}/{{item.id}}/partner-logo.png" alt="{{item.id}} logo"></div>
 <div class="space--md"></div>
   <h4 class="title title--serif title--sm text--white text--bolder">{{item.incentive}}</h4>
-    <h4 class="title title--xs text--white text--normal ">{{item.incentive-detail}}</h4>
+    <h4 class="text text--xl text--white text--normal ">{{item.incentive-detail}}</h4>  <div class="space--md"></div>
+      <a href="{{item.link}}" target="_new" class="btn btn--sm  btn--white">Direkt&nbsp;zum&nbsp;Angebot</a>
+
             </div>
           </div>
 
@@ -41,10 +43,10 @@
                 <p class="text--md width width--lg">{{item.description}}</p>
               </div>
 
-            <div  class="space--xs"></div>
+            <div  class="space--xl"></div>
 
               {% for feature in item.features %}
-              <div class="boxpad--xl">
+              <div class="boxpad---md">
               <div class="bob {% cycle '', 'bob--swap' %}">
                 <div class="bob__img">
                   <div class="bg-img bg-img--16-9" style="background-image: url({{site.img}}/categories/{{section.id}}/{{item.id}}/{{feature.id}}.jpg);"></div>
@@ -55,7 +57,7 @@
                   <p class="text--md">{{feature.content}}</p>
                 </div>
               </div>
-            </div>
+            </div>  <div  class="space--xl"></div>
               {% endfor %}
 
           </div>

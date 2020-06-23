@@ -48,4 +48,13 @@
       &:before { border-color: $white; }
     }
   }
+  &--white {
+    color: $grey-darkest;
+      background-color: $white;
+    &:before { border-color: $white; }
+    &:hover {
+      background-color: rgba($white, 0.8); color: $grey-darkest;
+      &:before { border-color: $white; }
+    }
+  }
 }
