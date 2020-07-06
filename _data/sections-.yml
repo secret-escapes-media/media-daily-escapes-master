@@ -70,6 +70,36 @@
 
   product:
 
+
+    - id: ravensburger
+      tile-title: myRavensburger
+      tile-summary: Den schönsten Reisemoment als Fotopuzzle oder Memory-Spiel verewigen? Hier werden Sie fündig!
+      incentive: 15% Rabatt
+      incentive-detail: "auf Ihre nächste Buchung"
+      tile-cta-text: Mehr erfahren
+      date: 25.06.2020
+      expires: 30.09.2020
+      hero: #
+      link: https://www.myravensburger.com/de-DE/?_$ja=tsid:68773&gclid=EAIaIQobChMIv-3z_Mmc6gIVwRUYCh0BSw_oEAAYASAAEgLLSPD_BwE
+      content-title: "myRavensburger"
+      tagline: Den schönsten Reisemoment als Fotopuzzle oder Memory-Spiel verewigen?
+      description: "Auf der Suche nach einer Möglichkeit, besondere Augenblicke lebendig zu halten? Dann sind Sie bei myRavensburger genau richtig. Personalisieren Sie sich ganz einfach Puzzle, Memory oder Kinderbuch mit Ihren eigenen Fotos. Erleben Sie besondere Momente auf eine neue Art."
+      offer-title: "15% Rabatt"
+      offer-rebate: "Rabattcode: DAILYESCAPESSOMMER20"
+      offer-description: auf Ihre nächste Buchung*
+      terms: "*gültig bis zum 30.09.2020"
+
+      features:
+
+        - id: feature1
+          title: Der Geheimtipp unter den Geschenken
+          content: "Egal ob zum Geburtstag, zu Weihnachten oder zum Jahrestag, gestalten Sie im Handumdrehen Ihr eigenes einzigartiges Geschenk. Wählen Sie aus vielen verschiedenen Gestaltungsmöglichkeiten und lassen Ihrer Kreativität freien Lauf. So ist jedes Geschenk ein Unikat."
+
+        - id: feature2
+          title: Freude verbreiten
+          content: "Ganz egal, für welches Fotoprodukt Sie sich entscheiden, dank bewährter Ravensburger Qualität ist lange Freude mit dem individuellen Geschenk garantiert. Lassen Sie sich inspirieren und stöbern durch das umfangreiche Sortiment von myRavensburger. Sparen Sie jetzt mit unserem Vorteilsangebot 15% auf Ihre nächste Buchung!"
+
+
     - id: rosettastone
       tile-title: Rosetta Stone
       tile-summary: "Die Welt ist Ihnen ein Rätsel? Die Sprachsoftware von Rosetta Stone hilft Ihnen, mehr davon zu verstehen."
@@ -147,54 +177,53 @@
 
     - id: outdoorchef
       tile-title: Outdoorchef
-      tile-summary: "Wenn es ums Grillen geht, lässt OUTDOORCHEF gar nichts anbrennen."
-      hero: #
-      incentive: "Exkl. Rabatte"
-      incentive-detail: "für Secret Escapes Mitglieder"
+      tile-summary: "Lorem ispum"
+      hero: latest
+      incentive: "xy% Rabatt"
+      incentive-detail: "Lorem ispum"
       tile-cta-text: Mehr erfahren
-      date: 26.06.2020
-      expires: 11.07.2020
-      link: https://vorteile-outdoorchef.rodewohld.de/
+      date: 25.06.2020
+      expires:
+      link: #
       content-title: Outdoorchef
-      tagline: "Grillflamme auf höchster Qualität"
-      description: "Seit über 30 Jahren entwickelt OUTDOORCHEF im Innovation Lab in Zürich Grills und Grillkonzepte, die ins Detail durchdacht sind. Das Trichtersystem hilft dabei, das Grillgut von allen Seiten gleichmäßig zu rösten, ohne es wenden zu müssen. Ob Gas, Kohle- oder Elektrogrill ist dabei Nebensache, OUTDOORCHEF bietet heiße Lösungen für jeden Anspruch."
-      offer-title: "Exklusive Rabatte "
-      offer-description: "für Secret Escapes Mitglieder*"
-      offer-rebate: #
+      tagline: "Lorem ispum"
+      description: Lorem ispum
+      offer-title: "Special offer"
+      offer-description: "Lorem ispum*"
+      offer-rebate: "Code: xyz"
       cta-text: #Create now
-      terms: "*Gültig bis zum 11.07.2020"
+      terms: "*Lorem ispum."
 
       features:
 
         - id: feature1
-          title: Ein Sommer zum Brutzeln
-          content: "Von 420er Grills - perfekt für kleine Platzverhältnisse - zu großen 570er Kugelgrills, die mehrere Familien versorgen und Dualchef-Grills ist die Produktpalette wunderbar breit aufgestellt. Mit dem richtigen Zubehör steht dann der Grillsaison 2020 nichts mehr im Weg. "
+          title: Lorem ispum
+          content: Lorem ispum...
 
 
 
     - id: butlers
       tile-title: Butlers
       tile-summary: "Kleine Balkone zu großen Stars: Urlaub daheim wird noch besser"
-      hero: latest
-      incentive: "13% Rabatt"
+      incentive: "11% Rabatt"
       incentive-detail: "auf alles, Mindestbestellwert: 35€"
       tile-cta-text: Mehr erfahren
-      date: 03.07.2020
-      expires: 16.08.2020
-      link: https://www.butlers.com/?utm_medium=secretescapes&utm_source=koop&utm_campaign=k000983/aktion/koop/secretescapes/13aufalles
+      date: 12.06.2020
+      expires: 31.08.2020
+      link: https://www.butlers.com/?utm_medium=secretescapes&utm_source=koop&utm_campaign=k000970/aktion/koop/secretescapes/11aufalles
       content-title: Butlers
       tagline: "Kleine Balkone zu großen Stars: Urlaub daheim wird noch besser"
       description: Wir verraten euch die wichtigsten Kniffe, mit denen ihr alles aus eurem Balkönchen herausholen könnt – damit die große Sonnenterrasse der Nachbarn nicht mehr zum Neidobjekt wird.
       offer-title: "Special offer"
-      offer-description: "13% Rabatt auf alles, Mindestbestellwert: 35€*"
-      offer-rebate: "Code: butlerssecret13"
+      offer-description: "11% Rabatt auf alles, Mindestbestellwert: 35€*"
+      offer-rebate: "Code: butlerssecret11"
       cta-text: #Create now
-      terms: "*Die 13%-Aktion gilt bis zum 16.08.2020 im Butlers-Onlineshop in Deutschland und Österreich ab einem Mindestbestellwert von 35€. Ausgenommen sind bereits reduzierte Artikel, Bücher und Geschenkgutscheine. Nicht mit anderen Rabatten und Aktionen kombinierbar. Bei Rückgabe eines oder mehrerer Artikel wird der Rabatt anteilig abgezogen/verrechnet. Der Rabatt wird im Warenkorb abgezogen."
+      terms: "*Die 11%-Aktion gilt bis zum 31.08.2020 im Butlers-Onlineshop in Deutschland und Österreich ab einem Mindestbestellwert von 35€. Ausgenommen sind bereits reduzierte Artikel, Bücher und Geschenkgutscheine. Nicht mit anderen Rabatten und Aktionen kombinierbar. Bei Rückgabe eines oder mehrerer Artikel wird der Rabatt anteilig abgezogen/verrechnet. Der Rabatt wird im Warenkorb abgezogen."
 
       features:
 
         - id: feature1
-          title: Klapp und weg – <br>Outdoor-Möbel
+          title: Klapp und weg – Outdoor-Möbel
           content: Mit zwei Handbewegungen wird die Frühstücksterrasse zum Mini-Strand und schon liegt ihr auf eurer Sonnenliege. Outdoor-Möbel zum Aufklappen und Hängematten und Hängesessel präsentieren sich als ziemlich kompakt und flexibel. So schnell wie sie aufgestellt sind, könnt ihr diese bei Bedarf wieder abbauen und zur Seite räumen.
         - id: feature2
           title: Multitalente bei Platzproblemen
